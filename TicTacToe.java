@@ -117,30 +117,30 @@ public class TicTacToe implements ActionListener{
         }
         //O horizontal
         if((buttons[0].getText()=="O") &&(buttons[1].getText()=="O")&&(buttons[2].getText()=="O")){
-            xwins(0, 1, 2);
+            owins(0, 1, 2);
         }
         if((buttons[3].getText()=="O") &&(buttons[4].getText()=="O")&&(buttons[5].getText()=="O")){
-            xwins(3, 4, 5);
+            owins(3, 4, 5);
         }
         if((buttons[6].getText()=="O") &&(buttons[7].getText()=="O")&&(buttons[8].getText()=="O")){
-            xwins(6, 7, 8);
+            owins(6, 7, 8);
         }
         //O vertical
         if((buttons[0].getText()=="O") &&(buttons[3].getText()=="O")&&(buttons[6].getText()=="O")){
-            xwins(0, 3, 6);
+            owins(0, 3, 6);
         }
         if((buttons[1].getText()=="O") &&(buttons[4].getText()=="O")&&(buttons[7].getText()=="O")){
-            xwins(1, 4, 7);
+            owins(1, 4, 7);
         }
         if((buttons[2].getText()=="O") &&(buttons[5].getText()=="O")&&(buttons[8].getText()=="O")){
-            xwins(2, 5, 8);
+            owins(2, 5, 8);
         }
         //O diagonal
         if((buttons[0].getText()=="O") &&(buttons[4].getText()=="O")&&(buttons[8].getText()=="O")){
-            xwins(0, 4, 8);
+            owins(0, 4, 8);
         }
         if((buttons[2].getText()=="O") &&(buttons[4].getText()=="O")&&(buttons[6].getText()=="O")){
-            xwins(2, 4, 6);
+            owins(2, 4, 6);
         }
        
     }
